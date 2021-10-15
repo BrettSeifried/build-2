@@ -6,7 +6,7 @@ import { renderFood } from './render-food.js';
 const foodList = document.getElementById('food-list');
 
 // set listeners
-for (let food of foods){
-    const foodCard = renderFood(food);
+for (let foods of food){
+    const foodCard = renderFood(foods);
     foodList.append(foodCard);
 }

@@ -9,4 +9,5 @@ export function renderFood(food){
     foodName.textContent = food.name;
 
     foodCard.append(img, foodName);
+    return foodCard;
 }
