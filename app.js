@@ -1,4 +1,3 @@
-import { findById } from './utils.js';
 import { food } from './food.js';
 import { renderFood } from './render-food.js';
 
